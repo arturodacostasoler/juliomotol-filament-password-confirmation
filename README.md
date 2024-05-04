@@ -35,7 +35,7 @@ public function panel(Panel $panel): Panel
 You can configure the route name, uri and middleware.
 
 ```php
-RenewPasswordPlugin::make()
+FilamentPasswordConfirmationPlugin::make()
     ->routeName('confirm')
     ->routeUri('auth/confirm')
     ->routeMiddleware(FooMiddleware::class) // Accepts string|array
